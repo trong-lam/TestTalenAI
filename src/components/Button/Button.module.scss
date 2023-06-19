@@ -1,0 +1,12 @@
+$darkColor: #343a40;
+.btnItem {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid $darkColor;
+    background-color: $darkColor;
+    color: white;
+    max-width: 89px;
+    &:hover{
+        cursor: pointer;
+    }
+}

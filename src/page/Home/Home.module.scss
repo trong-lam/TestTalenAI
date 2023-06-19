@@ -1,0 +1,30 @@
+.container {
+    padding: 1.5rem 2rem 0 1.5rem;
+    .header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .title{
+            font-weight: bold;
+        }
+        .searchCtn {
+            margin-left:auto ;
+            > input {
+                width: 350px;
+                outline: 1px solid  #C5C5C5;
+                padding: 10px;
+                border-radius: 8px;
+                border: none;
+            }
+            > button{
+                margin-left: 8px;
+            }
+        }
+    }
+    .profileList{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+}

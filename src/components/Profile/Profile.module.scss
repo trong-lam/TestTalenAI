@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid #ededed;
+    margin-top: 20px;
+    width: 350px;
+    .avatarCtn {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        > img {
+            border: 1px solid #ededed;
+            border-radius: 50%;
+        }
+    }
+    .userInforCtn {
+        padding: 10px;
+        border-top: 1px solid #ededed;
+        .userInfoItem {
+            display: flex;
+            align-items: center;
+            > img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
